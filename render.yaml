@@ -20,8 +20,8 @@ services:
           name: ip-postgres
           property: connectionString
       - key: ALLOWED_HOSTS
-        value: ip-backend.onrender.com
+        value: ip-backend-4puj.onrender.com
       - key: CORS_ALLOWED_ORIGINS
-        value: https://ip-frontend.vercel.app
+        value: https://intelligence-bookscraper.vercel.app
       - key: CSRF_TRUSTED_ORIGINS
-        value: https://ip-frontend.vercel.app
+        value: https://intelligence-bookscraper.vercel.app
